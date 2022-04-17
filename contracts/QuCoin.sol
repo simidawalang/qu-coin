@@ -6,7 +6,7 @@ import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol";
 
 pragma solidity ^0.8.9;
 
-contract QiCoin is ERC20, ERC20Burnable, Ownable{
+contract QuCoin is ERC20, ERC20Burnable, Ownable{
     event TokensBurned(address indexed owner, uint amount, string message);
     event TokensMinted(address indexed owner, uint amount, string message);
     event AdditionalTokensMinted(address indexed owner, uint amount, string message);
